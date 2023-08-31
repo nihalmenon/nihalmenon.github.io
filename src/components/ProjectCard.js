@@ -3,7 +3,7 @@ function ProjectCard({ title, description, link, image }) {
     return (
     <div className="projectCard">
         <div className='left'>
-            <img src={image} className="img"/>
+            <a href={link}><img src={image} className="img"/></a>
         </div>
         <div className='right'>
             <h2>{title}</h2>

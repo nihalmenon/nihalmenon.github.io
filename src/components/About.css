@@ -1,0 +1,80 @@
+.experienceCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 600px;
+    margin: 4rem auto;
+    padding: 2rem;
+    border-radius: 12px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.7);
+    background-color: #2d2d38;
+    color: white;
+    transition: transform 0.3s ease-in-out;
+  
+    &:hover {
+      transform: translateY(-5px); 
+    }
+  }
+  
+  h3 {
+    font-size: 3rem;
+  }
+
+
+    @media only screen and (max-width: 768px) {
+
+        h3 {
+            font-size: 2rem;
+        }
+    }
+
+  .experienceCard h2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .experienceCard p {
+    margin: 0.5rem 0;
+  }
+  
+  .experienceCard p:last-child {
+    margin-bottom: 0;
+  }
+  
+
+.aboutCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: space-between; /* Space items evenly along the main axis */
+    position: relative;
+    max-width: 600px;
+    margin: 4rem auto;
+    background-color: #2d2d38;
+    padding: 5rem 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.7);
+    z-index: 2;
+    line-height: 1.6;
+}
+
+.contact {
+    display: flex; /* Display icons in a row */
+    gap: 1rem; /* Add spacing between icons */
+    justify-content: center; /* Center icons horizontally */
+    margin-top: 2rem; /* Add space between content and icons */
+  }
+  
+  .contact a {
+    color: white;
+    font-size: 2rem;
+    transition: color 0.3s ease-in-out;
+  
+    &:hover {
+      color: rgba(0, 255, 255, 0.7); /* Change color on hover */
+    }
+  }
+
+.experienceDiv h1 {
+    margin-bottom: 20px;
+}

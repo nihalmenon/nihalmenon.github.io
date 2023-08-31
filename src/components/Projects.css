@@ -31,7 +31,7 @@
     justify-content: center;
     position: relative;
     max-width: 900px;
-    margin: 0 auto;
+    margin: 4rem auto;
     margin-bottom: 15rem;
 }
 
@@ -97,7 +97,7 @@
     width: 100px;
     color: #ffffff;
     text-align: center;
-    border: 4px double #cccccc;
+    border: 4px #cccccc;
     border-radius: 10px;
     font-size: 28px;
     cursor: pointer;
@@ -134,9 +134,6 @@
         margin-left: 0;
     }
 
-    .projectDiv h1 {
-        text-align: center;
-    }
 }
 
 @media only screen and (max-width: 400px) {
