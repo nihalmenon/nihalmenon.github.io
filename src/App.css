@@ -66,7 +66,7 @@ p {
 }
 
 section {
-    padding: 2vmin;
+    padding: 2vmin 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

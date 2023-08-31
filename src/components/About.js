@@ -12,9 +12,9 @@ function About() {
                     Feel free to reach out and send me a message <u><a href="mailto:nihal_menon@hotmail.com">here</a></u>!</p>
                     <br/>
                     <div className="contact">
-                        <a href="https://www.linkedin.com/in/nihalmenon" target="_blank" rel="noopener noreferrer"><span class="fa fa-linkedin"></span></a>
-                        <a href="https://github.com/nihalmenon/" target="_blank" rel="noopener noreferrer"><span class="fa fa-github"></span></a>
-                        <a href="mailto:nihal_menon@hotmail.com"><span class="fa fa-envelope"></span></a>
+                        <a href="https://www.linkedin.com/in/nihalmenon" target="_blank" rel="noopener noreferrer"><span className="fa fa-linkedin"></span></a>
+                        <a href="https://github.com/nihalmenon/" target="_blank" rel="noopener noreferrer"><span className="fa fa-github"></span></a>
+                        <a href="mailto:nihal_menon@hotmail.com"><span className="fa fa-envelope"></span></a>
                     </div>
                 </div>
             </div>

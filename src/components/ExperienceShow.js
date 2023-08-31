@@ -8,7 +8,7 @@ function ExperienceShow() {
     const tools = [['React.js, C#, SQL, Angular, LINQ, Python, Selenium, Razor, Blazor']]
 
     const experiences = companies.map((company, i) => {
-        return <ExperienceCard company={company} position={positions[i]} description={descriptions[i]} duration={durations[i]} tools={tools[i]}/>
+        return <ExperienceCard company={company} position={positions[i]} description={descriptions[i]} duration={durations[i]} tools={tools[i]} key={i}/>
     })
 
     return (
