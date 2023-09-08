@@ -72,6 +72,10 @@ section {
     justify-content: space-between;
 }
 
+h1:not(.intro h1) {
+    text-align: center;
+}
+
 @media (max-width: 1000px) {
     h1 {
         font-size: 8rem;
@@ -95,10 +99,6 @@ section {
     .projectCard button {
         font-size: 1.5rem;
 
-    }
-
-    h1:not(.intro h1) {
-        text-align: center;
     }
 
 }
