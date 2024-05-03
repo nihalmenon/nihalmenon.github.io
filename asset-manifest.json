@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.a841c3be.css",
-    "main.js": "/static/js/main.19eab3f1.js",
+    "main.js": "/static/js/main.58334c7a.js",
     "static/media/coronavirus.png": "/static/media/coronavirus.6a0280f6cd8cc9300675.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/betreel.jpg": "/static/media/betreel.de973cb7b818a75c78f4.jpg",
+    "static/media/flashify.png": "/static/media/flashify.401a6163ef1ea4765cb9.png",
     "static/media/trivia.png": "/static/media/trivia.3e63d8ca1c7929a5fee6.png",
     "static/media/foralltimes.jpg": "/static/media/foralltimes.6f30d2d85df9868c7565.jpg",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -17,10 +18,10 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/index.html",
     "main.a841c3be.css.map": "/static/css/main.a841c3be.css.map",
-    "main.19eab3f1.js.map": "/static/js/main.19eab3f1.js.map"
+    "main.58334c7a.js.map": "/static/js/main.58334c7a.js.map"
   },
   "entrypoints": [
     "static/css/main.a841c3be.css",
-    "static/js/main.19eab3f1.js"
+    "static/js/main.58334c7a.js"
   ]
 }
