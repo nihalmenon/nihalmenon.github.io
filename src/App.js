@@ -1,6 +1,6 @@
 import './App.css'
 import About from './components/About'
-import Experience from './components/Experience'
+// import Experience from './components/Experience'
 import Footer from './components/Footer'
 import Intro from './components/Intro'
 import Projects from './components/Projects'
@@ -11,7 +11,7 @@ function App() {
     <div id='container'>
         <Intro/>
         <About />
-        <Experience />
+        {/* <Experience /> */}
         <Projects/>
         <Footer />
     </div>
