@@ -7,13 +7,13 @@
     padding: 2rem;
     border-radius: 12px;
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
-    box-shadow: 0 0 20px rgba(0, 255, 255, 0.7);
-    background-color: #2d2d38;
-    color: white;
+    box-shadow: 0 0 20px var(--accent-cyan);
+    background-color: var(--bg-card);
+    color: var(--text-primary);
     transition: transform 0.3s ease-in-out;
-  
+
     &:hover {
-      transform: translateY(-5px); 
+      transform: translateY(-5px);
     }
   }
   
@@ -50,10 +50,10 @@
     position: relative;
     max-width: 600px;
     margin: 4rem auto;
-    background-color: #2d2d38;
+    background-color: var(--bg-card);
     padding: 5rem 2rem;
     border-radius: 12px;
-    box-shadow: 0 0 20px rgba(0, 255, 255, 0.7);
+    box-shadow: 0 0 20px var(--accent-cyan);
     z-index: 2;
     line-height: 1.6;
 }
@@ -64,14 +64,14 @@
     justify-content: center; /* Center icons horizontally */
     margin-top: 2rem; /* Add space between content and icons */
   }
-  
+
   .contact a {
-    color: white;
+    color: var(--text-primary);
     font-size: 2rem;
     transition: color 0.3s ease-in-out;
-  
+
     &:hover {
-      color: rgba(0, 255, 255, 0.7); /* Change color on hover */
+      color: var(--accent-color); /* Change color on hover */
     }
   }
 

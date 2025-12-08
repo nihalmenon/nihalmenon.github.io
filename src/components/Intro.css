@@ -6,7 +6,7 @@ a {
 }
 
 a:hover {
-    color:rgba(0,255,255,0.7);
+    color: var(--accent-color);
     transition: 0.4s ease;
     outline: 0;
 }
@@ -20,7 +20,7 @@ nav a {
     display: inline-block;
     margin: 0 2vw 0 0;
     letter-spacing: 0.5px;
-    color: #5a6472;
+    color: var(--nav-link);
     font-weight: 400;
     font-size: 2rem;
 }
