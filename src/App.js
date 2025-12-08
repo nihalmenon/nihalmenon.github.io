@@ -4,11 +4,13 @@ import About from './components/About'
 import Footer from './components/Footer'
 import Intro from './components/Intro'
 import Projects from './components/Projects'
+import ThemeToggle from './components/ThemeToggle'
 
 
 function App() {
     return (
     <div id='container'>
+        <ThemeToggle />
         <Intro/>
         <About />
         {/* <Experience /> */}
