@@ -9,7 +9,7 @@ function ProjectCard({ title, description, link, image }) {
             <h2>{title}</h2>
             <p>{description}</p>
             <div className='buttons'>
-                <div className='button'><a href={link}>Visit</a></div>    
+                <div className='button'><a href={link}>Launch</a></div>
             </div>
         </div>
     </div>
