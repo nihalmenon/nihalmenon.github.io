@@ -1,0 +1,144 @@
+/* Theme CSS Variables */
+:root {
+  /* Dark mode colors (default) */
+  --bg-primary: #0f1114;
+  --bg-card: #2d2d38;
+  --text-primary: #fff;
+  --text-secondary: #fff;
+  --nav-link: #5a6472;
+  --accent-color: rgba(0, 255, 255, 0.7);
+  --accent-cyan: rgba(0, 255, 255, 0.7);
+  --button-bg: #0f1114;
+  --border-color: #ccc;
+  --selection-bg: rgba(0, 255, 255, 0.7);
+}
+
+/* Light mode colors */
+[data-theme="light"] {
+  --bg-primary: #f5f7fa;
+  --bg-card: #ffffff;
+  --text-primary: #1a1a2e;
+  --text-secondary: #16213e;
+  --nav-link: #6b7280;
+  --accent-color: rgba(0, 150, 150, 0.8);
+  --accent-cyan: rgba(0, 150, 150, 0.8);
+  --button-bg: #ffffff;
+  --border-color: #d1d5db;
+  --selection-bg: rgba(0, 150, 150, 0.3);
+}
+
+/* Apply theme variables to existing styles */
+body, html {
+  background: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+::selection {
+  background: var(--selection-bg) !important;
+}
+
+h1, h2 {
+  color: var(--text-primary) !important;
+}
+
+nav a {
+  color: var(--nav-link) !important;
+}
+
+a:hover {
+  color: var(--accent-color) !important;
+}
+
+.experienceCard {
+  background-color: var(--bg-card) !important;
+  box-shadow: 0 0 20px var(--accent-cyan) !important;
+  color: var(--text-primary) !important;
+}
+
+.aboutCard {
+  background-color: var(--bg-card) !important;
+  box-shadow: 0 0 20px var(--accent-cyan) !important;
+}
+
+.contact a {
+  color: var(--text-primary) !important;
+}
+
+.contact a:hover {
+  color: var(--accent-color) !important;
+}
+
+.projectCard .right {
+  background-color: var(--bg-card) !important;
+  box-shadow: 0 0 20px var(--accent-cyan) !important;
+}
+
+.projectCard .button {
+  background-color: var(--button-bg) !important;
+  border: 4px solid var(--border-color) !important;
+  color: var(--text-primary) !important;
+}
+
+/* Theme Toggle Button Styles */
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--bg-card);
+  border: 2px solid var(--accent-cyan);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  transition: all 0.3s ease;
+  z-index: 1000;
+  box-shadow: 0 4px 12px var(--accent-cyan);
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1) rotate(20deg);
+  box-shadow: 0 6px 20px var(--accent-cyan);
+}
+
+.theme-toggle:active {
+  transform: scale(0.95);
+}
+
+.theme-icon {
+  transition: transform 0.3s ease;
+}
+
+/* Sun and Moon icons */
+.theme-toggle .fa-sun-o {
+  color: #fbbf24;
+}
+
+.theme-toggle .fa-moon-o {
+  color: #60a5fa;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  .theme-toggle {
+    top: 15px;
+    right: 15px;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .theme-toggle {
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+}
