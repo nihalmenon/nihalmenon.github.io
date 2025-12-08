@@ -4,7 +4,7 @@
     align-items: flex-start;
     max-width: 600px;
     margin: 4rem auto;
-    padding: 2rem;
+    padding: 3rem 2.5rem;
     border-radius: 12px;
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     box-shadow: 0 0 20px var(--accent-cyan);
@@ -51,7 +51,7 @@
     max-width: 600px;
     margin: 4rem auto;
     background-color: var(--bg-card);
-    padding: 5rem 2rem;
+    padding: 4rem 3rem;
     border-radius: 12px;
     box-shadow: 0 0 20px var(--accent-cyan);
     z-index: 2;
@@ -68,10 +68,11 @@
   .contact a {
     color: var(--text-primary);
     font-size: 2rem;
-    transition: color 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 
     &:hover {
       color: var(--accent-color); /* Change color on hover */
+      transform: translateY(-3px) scale(1.1);
     }
   }
 
